@@ -17,7 +17,7 @@ if [ -z "$RECIPIENT" ]; then
     exit 1
 fi
 
-RPC_URL="https://base.drpc.org"
+RPC_URL="${RPC_URL:-https://base.drpc.org}"
 
 echo "Deploying Token contract..."
 echo "RPC URL: $RPC_URL"
