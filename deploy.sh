@@ -24,6 +24,6 @@ echo "RPC URL: $RPC_URL"
 echo "Recipient: $RECIPIENT"
 
 # Run the deployment script
-forge script script/Deploy.s.sol --rpc-url "$RPC_URL" --broadcast --verify
+forge script script/Deploy.s.sol --rpc-url "$RPC_URL" --broadcast --verify --slow
 
 echo "Deployment complete!"
